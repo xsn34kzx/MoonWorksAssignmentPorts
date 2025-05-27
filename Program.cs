@@ -6,7 +6,10 @@ namespace MoonWorksAssignmentPorts;
 
 public class Program : Game
 {
-    //Assignment[] Assignments;
+    Assignment[] Assignments = [
+        new SimpleScene()
+    ];
+
     int AssignmentIndex = 0;
 
     public Program(
@@ -23,14 +26,22 @@ public class Program : Game
         )
     {
         ShaderCross.Initialize();
+        Assignments[AssignmentIndex].Start(this);
     }
 
     override protected void Update(TimeSpan delta)
     {
+        Assignments[AssignmentIndex].Update(delta);
     }
 
     override protected void Draw(double alpha)
     {
+        Assignments[AssignmentIndex].Draw(alpha);
+    }
+
+    override protected void Destroy()
+    {
+        Assignments[AssignmentIndex].Destroy();
     }
 
     static void Main(string[] args)
