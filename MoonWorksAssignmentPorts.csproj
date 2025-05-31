@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MoonWorks\MoonWorks.csproj" />
+    <ProjectReference Include="..\MoonTools.ECS\MoonTools.ECS.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
