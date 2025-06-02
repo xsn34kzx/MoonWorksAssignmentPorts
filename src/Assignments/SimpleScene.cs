@@ -46,7 +46,6 @@ public class SimpleScene : Assignment
         World.Set(universe, new Scale(8, 8));
         World.Set(universe, new CanRotate(0.2f));
         World.Set(universe, new Sprite(0, 0, 2500f / 3726f, 1));
-        
     }
 
     override public void Update(TimeSpan delta)
