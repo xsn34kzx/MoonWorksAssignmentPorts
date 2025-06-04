@@ -47,4 +47,5 @@ care_ (TLC).
 
 ### Assets (Art, Audio, etc.)
 
-TBD
+The textures used for "Simple Scene" are taken from [NSSDCA's Photo Gallery](https://nssdc.gsfc.nasa.gov/photo_gallery/),
+the images from which are provided by NSSDCA and NASA and within the public domain.
