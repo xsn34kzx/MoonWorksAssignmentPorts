@@ -37,6 +37,14 @@ care_ (TLC).
 
 </details>
 
+## Building & Usage 
+
+1. Clone the repository
+2. Clone the dependencies
+3. Download the dependencies for MoonWorks: https://moonside.games/files/moonlibs.tar.gz
+4. Extract the `moonlibs` folder from the downloaded archive to the repository folder
+5. Build and run the project (.NET 9.0+): `dotnet run`
+
 ## Dependecies
 - [MoonWorks](https://github.com/MoonsideGames/MoonWorks)
 - [MoonTools.ECS](https://github.com/MoonsideGames/MoonTools.ECS)
